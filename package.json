@@ -1,0 +1,30 @@
+{
+  "name": "image-mime",
+  "version": "0.0.2",
+  "description": "image mime",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/image-mime.umd.cjs",
+  "module": "./dist/image-mime.js",
+  "types": "./index.d.ts",
+  "exports": {
+    "import": "./dist/image-mime.js",
+    "require": "./dist/image-mime.umd.cjs"
+  },
+  "author": "cl-ddup",
+  "keywords": ["mime", "file-mime", "image-mime", "magic-bytes.js", "is-svg"],
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "is-svg": "^5.0.0",
+    "magic-bytes.js": "^1.5.0"
+  }
+}
